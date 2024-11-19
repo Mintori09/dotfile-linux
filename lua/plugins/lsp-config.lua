@@ -19,7 +19,7 @@ return {
         lspconfig.clangd.setup({
             capabilities = capabilities, -- Các khả năng của LSP
             cmd = { "clangd" }, -- Đường dẫn đến clangd (nếu cần)
-            filetypes = { "c", "cpp", "objc", "objcpp", "ahk", "autohotkeys" }, -- Các loại tệp hỗ trợ
+            filetypes = { "c", "cpp", "objc", "objcpp", "ahk" }, -- Các loại tệp hỗ trợ
             root_dir = lspconfig.util.root_pattern("compile_commands.json", ".git"), -- Xác định thư mục gốc
             settings = {
                 clangd = {
@@ -40,6 +40,10 @@ return {
         -- Gọi on_attach khi lsp được khởi động
         lspconfig.clangd.setup({
             on_attach = on_attach,
+        })
+
+        lspconfig.csharp_ls.setup({
+            capabilities = capabilities,
         })
     end,
 }
