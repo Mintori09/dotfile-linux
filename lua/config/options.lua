@@ -2,6 +2,10 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Text width --
+vim.opt.formatoptions = "jcroqlnt"
+vim.opt.textwidth = 80
+
 -- LazyVim auto format
 vim.g.autoformat = true
 
@@ -30,8 +34,8 @@ vim.g.lazygit_config = true
 
 -- Options for the LazyVim statuscolumn
 vim.g.lazyvim_statuscolumn = {
-  folds_open = false, -- show fold sign when fold is open
-  folds_githl = false, -- highlight fold sign with git sign color
+    folds_open = false, -- show fold sign when fold is open
+    folds_githl = false, -- highlight fold sign with git sign color
 }
 
 -- Optionally setup the terminal to use
@@ -69,12 +73,12 @@ opt.confirm = true -- Confirm to save changes before exiting modified buffer
 opt.cursorline = true -- Enable highlighting of the current line
 opt.expandtab = true -- Use spaces instead of tabs
 opt.fillchars = {
-  foldopen = "",
-  foldclose = "",
-  fold = " ",
-  foldsep = " ",
-  diff = "╱",
-  eob = " ",
+    foldopen = "",
+    foldclose = "",
+    fold = " ",
+    foldsep = " ",
+    diff = "╱",
+    eob = " ",
 }
 opt.foldlevel = 99
 opt.formatexpr = "v:lua.require'lazyvim.util'.format.formatexpr()"
@@ -120,13 +124,13 @@ opt.winminwidth = 5 -- Minimum window width
 opt.wrap = false -- Disable line wrap
 
 if vim.fn.has("nvim-0.10") == 1 then
-  opt.smoothscroll = true
-  opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()"
-  opt.foldmethod = "expr"
-  opt.foldtext = ""
+    opt.smoothscroll = true
+    opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()"
+    opt.foldmethod = "expr"
+    opt.foldtext = ""
 else
-  opt.foldmethod = "indent"
-  opt.foldtext = "v:lua.require'lazyvim.util'.ui.foldtext()"
+    opt.foldmethod = "indent"
+    opt.foldtext = "v:lua.require'lazyvim.util'.ui.foldtext()"
 end
 
 -- Fix markdown indentation settings

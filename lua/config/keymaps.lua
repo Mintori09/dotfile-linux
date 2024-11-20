@@ -198,6 +198,3 @@ vim.api.nvim_set_keymap('i', '<S-Tab>', '<C-T>', { noremap = true, silent = true
 -- Live Server --
 map('n', '<leader>ls', ':!live-server --browser="brave" --no-silent<CR>', { noremap = true, silent = true, desc = "Start Live Server in Brave" })
 map('n', '<leader>ls', ':!live-server --port=3000 --no-browser &<CR>', { noremap = true, silent = true, desc = "Start Live Server on Port 3000" })
-
--- Ariel Open --
-map("n", "<leader>a", "<cmd>AerialToggle!<CR>", {desc = "Ariel Open"})

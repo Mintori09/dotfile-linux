@@ -3,6 +3,8 @@ return {
         "nvim-treesitter/nvim-treesitter",
         opts = {
             ensure_installed = {
+                "html",
+                "sql",
                 "csharp",
                 "c_sharp",
                 "ahk",
@@ -83,8 +85,10 @@ return {
                     { name = "vsnip" },
                     { name = "nvim_lsp" },
                     { name = "autohotkey" },
-                }, {
-                    { name = "buffer" },
+                    { name = "bootstrap" },
+                    { name = "vim-dadbod-completion" },
+                    { nanme = "buffer" },
+                    { name = "bootstrap" },
                 }),
             })
 
@@ -104,12 +108,13 @@ return {
         end,
     },
     { "hrsh7th/cmp-vsnip" },
+    -- { "quangnguyen30192/cmp-nvim-ultisnips" },
     { "hrsh7th/vim-vsnip" },
+    { "Jezda1337/cmp_bootstrap" },
     -- Uncomment the following lines if using LuaSnip or other snippet engines
     -- { "L3MON4D3/LuaSnip" },
     -- { "saadparwaiz1/cmp_luasnip" },
     -- { "SirVer/ultisnips" },
     -- { "quangnguyen30192/cmp-nvim-ultisnips" },
-    -- { "dcampos/nvim-snippy" },
     -- { "dcampos/cmp-snippy" }
 }
