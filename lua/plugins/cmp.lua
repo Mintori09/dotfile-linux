@@ -4,7 +4,11 @@ return {
         opts = {
             ensure_installed = {
                 "html",
-                "sql",
+                "python",
+                "py",
+                "css",
+                "javascript",
+                "js",
                 "csharp",
                 "c_sharp",
                 "ahk",
@@ -12,7 +16,6 @@ return {
                 "astro",
                 "cmake",
                 "cpp",
-                "css",
                 "fish",
                 "gitignore",
                 "go",
@@ -36,6 +39,8 @@ return {
             vim.treesitter.language.register("markdown", "mdx")
         end,
     },
+    { "rafamadriz/friendly-snippets" },
+    { "onsails/lspkind.nvim" },
     { "neovim/nvim-lspconfig" },
     { "hrsh7th/cmp-nvim-lsp" },
     { "hrsh7th/cmp-buffer" },
@@ -43,9 +48,28 @@ return {
     { "hrsh7th/cmp-cmdline" },
     {
         "hrsh7th/nvim-cmp",
+        event = "InsertEnter",
+        dependencies = {
+            "hrsh7th/cmp-buffer",
+            "hrsh7th/cmp-path",
+            {
+                "L3MON4D3/LuaSnip",
+                version = "v2.*",
+                build = "make install_jsregexp",
+            },
+            "saadparwaiz1/cmp_luasnip",
+            "rafamadriz/friendly-snippets",
+            "onsails/lspkind.nvim",
+        },
         config = function()
+            require("luasnip.loaders.from_vscode").lazy_load()
+            local lspkind = require("lspkind")
+            local luasnip = require("luasnip")
             local cmp = require("cmp")
             cmp.setup({
+                completion = {
+                    completeopt = "menu, menuone, preview, noselect",
+                },
                 snippet = {
                     expand = function(args)
                         vim.fn["vsnip#anonymous"](args.body)
@@ -81,15 +105,23 @@ return {
                     end, { "i", "s" }),
                 }),
                 sources = cmp.config.sources({
+                    { name = "luasnip" },
+                    { name = "path" },
                     { name = "clangd" },
                     { name = "vsnip" },
                     { name = "nvim_lsp" },
                     { name = "autohotkey" },
                     { name = "bootstrap" },
                     { name = "vim-dadbod-completion" },
-                    { nanme = "buffer" },
+                    { name = "buffer" },
                     { name = "bootstrap" },
                 }),
+                formatting = {
+                    format = lspkind.cmp_format({
+                        maxwidth = 50,
+                        ellipsis_char = "...",
+                    }),
+                },
             })
 
             cmp.setup.cmdline({ "/", "?" }, {
@@ -112,8 +144,8 @@ return {
     { "hrsh7th/vim-vsnip" },
     { "Jezda1337/cmp_bootstrap" },
     -- Uncomment the following lines if using LuaSnip or other snippet engines
-    -- { "L3MON4D3/LuaSnip" },
-    -- { "saadparwaiz1/cmp_luasnip" },
+    { "L3MON4D3/LuaSnip" },
+    { "saadparwaiz1/cmp_luasnip" },
     -- { "SirVer/ultisnips" },
     -- { "quangnguyen30192/cmp-nvim-ultisnips" },
     -- { "dcampos/cmp-snippy" }

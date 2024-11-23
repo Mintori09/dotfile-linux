@@ -3,6 +3,9 @@ return {
         "williamboman/mason.nvim",
         opts = function(_, opts)
             vim.list_extend(opts.ensure_installed, {
+                "mypy",
+                "ruff",
+                "pyright",
                 "luacheck",
                 "shellcheck",
                 "shfmt",
@@ -39,12 +42,22 @@ return {
                 vim.api.nvim_buf_set_keymap(bufnr, "n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
             end
 
+            lspconfig.pyright.setup({
+                on_attach = on_attach,
+                capabilities = capabilities,
+                filetypes = { "python" },
+            })
+
             lspconfig.clangd.setup({
                 on_attach = on_attach,
+                filetypes = { "cpp", "c", "h", "hpp" },
             })
 
             lspconfig.csharp_ls.setup({
                 capabilities = capabilities,
+                filetypes = {
+                    "cs",
+                },
             })
         end,
         opts = {
@@ -87,6 +100,7 @@ return {
                         },
                     },
                 },
+
                 html = {},
                 lua_ls = {
                     -- enabled = false,

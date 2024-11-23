@@ -7,15 +7,6 @@ return {
             colorscheme = "sonokai",
         },
     },
-    {
-        "akinsho/bufferline.nvim",
-        optional = true,
-        opts = function(_, opts)
-            if (vim.g.colors_name or ""):find("catppuccin") then
-                opts.highlights = require("catppuccin.groups.integrations.bufferline").get()
-            end
-        end,
-    },
     -- LazyGit integration with Telescope
     {
         "kdheepak/lazygit.nvim",
@@ -53,21 +44,6 @@ return {
 
                 "<leader>d",
                 "<cmd>NvimTreeClose<cr><cmd>tabnew<cr><bar><bar><cmd>DBUI<cr>",
-            },
-        },
-    },
-    {
-        "akinsho/bufferline.nvim",
-        event = "VeryLazy",
-        keys = {
-            { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
-            { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
-        },
-        opts = {
-            options = {
-                mode = "tabs",
-                show_buffer_close_icons = false,
-                show_close_icon = false,
             },
         },
     },
