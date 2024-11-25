@@ -26,9 +26,11 @@ return {
 
             lspconfig.clangd.setup({
                 capabilities = capabilities,
-                cmd = { "clangd" },
-                filetypes = { "c", "cpp", "objc", "objcpp", "ahk" },
+                on_attach = on_attach,
+                cmd = { "clangd", "--fallback-style=llvm", "--background-index" },
+                filetypes = { "c", "cpp", "objc", "objcpp" },
                 root_dir = lspconfig.util.root_pattern("compile_commands.json", ".git"),
+                single_file_support = true, -- Hỗ trợ tệp lẻ
                 settings = {
                     clangd = {
                         compilationDatabasePath = "build",
@@ -46,11 +48,6 @@ return {
                 on_attach = on_attach,
                 capabilities = capabilities,
                 filetypes = { "python" },
-            })
-
-            lspconfig.clangd.setup({
-                on_attach = on_attach,
-                filetypes = { "cpp", "c", "h", "hpp" },
             })
 
             lspconfig.csharp_ls.setup({

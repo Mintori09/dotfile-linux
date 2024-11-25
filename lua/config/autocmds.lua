@@ -158,10 +158,10 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
     end,
 })
 
-vim.api.nvim_create_autocmd({ "BufWinLeave" }, {
-    pattern = { "*.md" },
+-- Clangd auto format when save --
+vim.api.nvim_create_autocmd("BufWritePre", {
+    pattern = { "*.c", "*.cpp", "*.h", "*.hpp" },
     callback = function()
-        vim.opt.colorcolumn = "120"
-        vim.opt.textwidth = 120
+        vim.lsp.buf.format()
     end,
 })

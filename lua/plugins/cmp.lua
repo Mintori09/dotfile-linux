@@ -4,6 +4,8 @@ return {
         opts = {
             ensure_installed = {
                 "html",
+                "regex",
+                "query",
                 "python",
                 "py",
                 "css",
@@ -64,7 +66,10 @@ return {
         config = function()
             require("luasnip.loaders.from_vscode").lazy_load()
             local lspkind = require("lspkind")
-            local luasnip = require("luasnip")
+            local ls = require("luasnip") -- Load Luasnip
+            local s = ls.snippet -- Define snippet
+            local t = ls.text_node -- Define text node
+            local i = ls.insert_node -- Define insert node
             local cmp = require("cmp")
             cmp.setup({
                 completion = {
@@ -122,6 +127,35 @@ return {
                         ellipsis_char = "...",
                     }),
                 },
+            })
+
+            local ls = require("luasnip") -- Load Luasnip
+            local s = ls.snippet -- Define snippet
+            local t = ls.text_node -- Define text node
+            local i = ls.insert_node -- Define insert node
+
+            ls.add_snippets("text", {
+                s("cmakelist", {
+                    t({
+                        "cmake_minimum_required(VERSION ",
+                    }),
+                    i(1, "3.5.0"), -- Placeholder for CMake version
+                    t({ ")", "project(" }),
+                    i(2, "ProjectName"), -- Placeholder for project name
+                    t({ " VERSION " }),
+                    i(3, "0.1.0"), -- Placeholder for project version
+                    t({ " LANGUAGES C CXX)", "" }),
+                    t({ "", "add_executable(" }),
+                    i(4, "main"), -- Placeholder for executable name
+                    t({ " " }),
+                    i(5, "main.cpp"), -- Placeholder for source file
+                    t({ ")", "" }),
+                    t({ "", "include(CTest)" }),
+                    t({ "", "enable_testing()", "" }),
+                    t({ "", "set(CPACK_PROJECT_NAME ${PROJECT_NAME})" }),
+                    t({ "", "set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})", "" }),
+                    t({ "include(CPack)" }),
+                }),
             })
 
             cmp.setup.cmdline({ "/", "?" }, {
