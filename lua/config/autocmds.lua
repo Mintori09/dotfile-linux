@@ -92,7 +92,7 @@ vim.api.nvim_create_autocmd("FileType", {
 -- wrap and check for spell in text filetypes
 vim.api.nvim_create_autocmd("FileType", {
     group = augroup("wrap_spell"),
-    pattern = { "text", "plaintex", "typst", "gitcommit", "markdown" },
+    pattern = { "text", "plaintex", "typst", "gitcommit" },
     callback = function()
         vim.opt_local.wrap = true
         vim.opt_local.spell = true
@@ -165,3 +165,53 @@ vim.api.nvim_create_autocmd("BufWritePre", {
         vim.lsp.buf.format()
     end,
 })
+local ibus_prev_engine = nil
+
+function IBusOff()
+    -- Lưu engine hiện tại
+    ibus_prev_engine = vim.fn.system("ibus engine")
+    -- Chuyển sang engine tiếng Anh
+    vim.cmd("silent !ibus engine BambooUs")
+end
+
+function IBusOn()
+    local current_engine = vim.fn.system("ibus engine")
+    vim.cmd("silent !ibus engine Bamboo")
+end
+
+vim.api.nvim_create_augroup("IBusHandler", { clear = true })
+
+vim.api.nvim_create_autocmd({ "CmdlineEnter" }, {
+    pattern = "[/?]",
+    callback = function()
+        IBusOn()
+    end,
+    group = "IBusHandler",
+})
+
+vim.api.nvim_create_autocmd({ "CmdlineLeave" }, {
+    pattern = "[/?]",
+    callback = function()
+        IBusOff()
+    end,
+    group = "IBusHandler",
+})
+
+vim.api.nvim_create_autocmd({ "InsertEnter" }, {
+    pattern = "*",
+    callback = function()
+        IBusOn()
+    end,
+    group = "IBusHandler",
+})
+
+vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+    pattern = "*",
+    callback = function()
+        IBusOff()
+    end,
+    group = "IBusHandler",
+})
+
+-- Call IBusOff initially
+IBusOff()

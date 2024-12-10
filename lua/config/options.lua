@@ -139,8 +139,8 @@ vim.g.markdown_recommended_style = 0
 -- Config powershell for neovim
 
 -- Cấu hình shell cho PowerShell
-vim.o.shell = "pwsh.exe"
-vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command $PSStyle.OutputRendering = 'PlainText';"
+vim.o.shell = "zsh"
+-- vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command $PSStyle.OutputRendering = 'PlainText';"
 vim.o.shellredir = "2>&1 | Tệp ngoài -Mã hóa UTF8 %s; thoát $LastExitCode"
 vim.o.shellpipe = "2>&1 | Tệp ngoài -Mã hóa UTF8 %s; thoát $LastExitCode"
 vim.o.shellquote = ""
