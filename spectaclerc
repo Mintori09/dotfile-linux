@@ -1,0 +1,9 @@
+[GuiConfig]
+captureMode=0
+
+[ImageSave]
+lastImageSaveLocation=file:///home/mintori/Pictures/Screenshots/Screenshot_20241223_234933.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

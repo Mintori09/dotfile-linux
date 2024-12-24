@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=ZSH.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseAllTabs=true
+CloseSingleTab=true
+
+[UiSettings]
+ColorScheme=

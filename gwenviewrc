@@ -1,0 +1,18 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.config/neofetch/fuhua.png
+File2[$e]=$HOME/mpv-shot0051.jpg
+File3[$e]=$HOME/Pictures/Screenshots/Screenshot_20241223_234933.png
+Name1[$e]=fuhua.png
+Name2[$e]=mpv-shot0051.jpg
+Name3[$e]=Screenshot_20241223_234933.png
+
+[SideBar]
+InformationSplitterSizes=220,255
+SideBarSplitterSizes=227,730
