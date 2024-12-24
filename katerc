@@ -10,8 +10,8 @@ Show Url Nav Bar=true
 [MainWindow]
 1920x1080 screen: Height=1007
 1920x1080 screen: Width=958
-2 screens: Height=1051
-2 screens: Width=958
+2 screens: Height=977
+2 screens: Width=952
 
 [filetree]
 editShade=74,55,117

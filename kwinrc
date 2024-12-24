@@ -8,6 +8,8 @@ Rows=1
 
 [Plugins]
 krohnkiteEnabled=true
+magiclampEnabled=true
+squashEnabled=false
 
 [Tiling]
 padding=4
@@ -20,3 +22,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Edna-Light
