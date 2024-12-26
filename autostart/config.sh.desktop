@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/mintori/.config/config.sh
+Icon=application-x-shellscript
+Name=config.sh
+Type=Application
+X-KDE-AutostartScript=true

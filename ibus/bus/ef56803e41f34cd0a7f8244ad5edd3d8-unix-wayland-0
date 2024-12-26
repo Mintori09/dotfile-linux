@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/mintori/.cache/ibus/dbus-3l0muVLG,guid=97cdb58057f2efbba97bb6e7676cb80e
-IBUS_DAEMON_PID=22057
+IBUS_ADDRESS=unix:path=/home/mintori/.cache/ibus/dbus-o1QkiJ05,guid=6a3fbb096615190882098bfd676cd109
+IBUS_DAEMON_PID=79786

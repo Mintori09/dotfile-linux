@@ -1,0 +1,145 @@
+{
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontFamily": "JetbrainsMono Nerd Font",
+    "C_Cpp.intelliSenseEngine": "disabled",
+
+  // conventional commits
+  "conventionalCommits.showNewVersionNotes": false,
+  // editor
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  "editor.guides.bracketPairs": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.suggest.insertMode": "replace",
+  "editor.wordWrap": "on",
+  // explorer
+  "explorer.confirmDragAndDrop": false,
+  // files
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.output": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/.data": true,
+    "**/.nuxt": true,
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/.vercel": true,
+    "**/next-env.d.ts": true,
+    "**/tsconfig.tsbuildinfo": true,
+    "**/yarn.lock": true,
+  },
+  "files.trimTrailingWhitespace": true,
+  // git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  // javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // search
+  "search.exclude": {
+    "**/.next": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  // tailwindcss
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "ui:\\s*{([^)]*)\\s*}",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}",
+      ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui"
+  ],
+  // terminal
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.macOptionIsMeta": false,
+  // typescript
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // vim
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-u>": true
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    }
+  ],
+  // vue
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  // workbench
+  "workbench.activityBar.location": "top",
+  "workbench.auxiliaryActivityBar.location": "top",
+  // "workbench.colorTheme": "Moondust: Far Side of the Moon",
+  "workbench.layoutControl.enabled": false,
+  "windsurf.autocompleteSpeed": "fast",
+}

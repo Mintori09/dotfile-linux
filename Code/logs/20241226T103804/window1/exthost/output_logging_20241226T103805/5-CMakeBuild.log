@@ -1,0 +1,2 @@
+[proc] Executing command: cmake --version
+[proc] Executing command: cmake -E capabilities

@@ -1,0 +1,17 @@
+I[10:17:17.005] clangd version 18.1.8
+I[10:17:17.006] Features: linux
+I[10:17:17.006] PID: 66316
+I[10:17:17.006] Working directory: /home/mintori
+I[10:17:17.006] argv[0]: /usr/bin/clangd
+I[10:17:17.006] Starting LSP over stdin/stdout
+I[10:17:17.006] <-- initialize(0)
+I[10:17:17.007] --> reply:initialize(0) 0 ms
+I[10:17:17.011] <-- initialized
+I[10:17:17.087] <-- $/setTrace
+I[10:17:17.087] unhandled notification $/setTrace
+I[10:17:17.290] <-- $/setTrace
+I[10:17:17.290] unhandled notification $/setTrace
+I[10:17:17.328] <-- $/setTrace
+I[10:17:17.328] unhandled notification $/setTrace
+I[10:17:18.875] <-- $/setTrace
+I[10:17:18.875] unhandled notification $/setTrace

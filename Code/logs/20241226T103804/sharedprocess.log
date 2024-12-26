@@ -1,0 +1,65 @@
+2024-12-26 10:40:27.895 [info] Getting Manifest... codeium.windsurfpyright
+2024-12-26 10:40:28.038 [info] Installing extension: codeium.windsurfpyright {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:40:28.917 [info] Getting Manifest... ms-python.python
+2024-12-26 10:40:29.583 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-26 10:40:29.622 [info] Getting Manifest... ms-python.debugpy
+2024-12-26 10:40:29.685 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-12-26 10:40:29.685 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-12-26 10:40:29.686 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-12-26 10:40:30.775 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 8ms.
+2024-12-26 10:40:30.829 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 7ms.
+2024-12-26 10:40:31.179 [info] Extracted extension to file:///home/mintori/.vscode/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2024-12-26 10:40:31.188 [info] Renamed to /home/mintori/.vscode/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2024-12-26 10:40:31.270 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:40:31.291 [info] Extension signature verification result for codeium.windsurfpyright: UnknownError. Executed: true. Duration: 6ms.
+2024-12-26 10:40:31.496 [info] Extension signature verification result for ms-python.vscode-pylance: UnknownError. Executed: true. Duration: 5ms.
+2024-12-26 10:40:31.720 [info] Extracted extension to file:///home/mintori/.vscode/extensions/ms-python.python-2024.22.1-linux-x64: ms-python.python
+2024-12-26 10:40:31.761 [info] Renamed to /home/mintori/.vscode/extensions/ms-python.python-2024.22.1-linux-x64
+2024-12-26 10:40:31.842 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:40:32.719 [info] Extracted extension to file:///home/mintori/.vscode/extensions/codeium.windsurfpyright-1.21.4: codeium.windsurfpyright
+2024-12-26 10:40:32.800 [info] Renamed to /home/mintori/.vscode/extensions/codeium.windsurfpyright-1.21.4
+2024-12-26 10:40:32.881 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:40:33.527 [info] Extracted extension to file:///home/mintori/.vscode/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2024-12-26 10:40:33.629 [info] Renamed to /home/mintori/.vscode/extensions/ms-python.vscode-pylance-2024.12.1
+2024-12-26 10:40:33.644 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:40:33.645 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:40:33.645 [info] Extension installed successfully: codeium.windsurfpyright vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:40:33.645 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:40:33.711 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:41:21.614 [info] Getting Manifest... xaver.clang-format
+2024-12-26 10:41:21.654 [info] Installing extension: xaver.clang-format {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:41:22.105 [info] Extension signature verification result for xaver.clang-format: UnknownError. Executed: true. Duration: 7ms.
+2024-12-26 10:41:22.116 [info] Extracted extension to file:///home/mintori/.vscode/extensions/xaver.clang-format-1.9.0: xaver.clang-format
+2024-12-26 10:41:22.118 [info] Renamed to /home/mintori/.vscode/extensions/xaver.clang-format-1.9.0
+2024-12-26 10:41:22.133 [info] Extension installed successfully: xaver.clang-format vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:41:22.197 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

@@ -1,0 +1,45 @@
+I[10:38:05.906] clangd version 18.1.8
+I[10:38:05.906] Features: linux
+I[10:38:05.906] PID: 77949
+I[10:38:05.906] Working directory: /home/mintori
+I[10:38:05.906] argv[0]: /usr/bin/clangd
+I[10:38:05.906] Starting LSP over stdin/stdout
+I[10:38:05.906] <-- initialize(0)
+I[10:38:05.907] --> reply:initialize(0) 0 ms
+I[10:38:05.909] <-- initialized
+I[10:38:05.939] <-- $/setTrace
+I[10:38:05.939] unhandled notification $/setTrace
+I[10:38:05.983] <-- $/setTrace
+I[10:38:05.983] unhandled notification $/setTrace
+I[10:38:07.619] <-- $/setTrace
+I[10:38:07.619] unhandled notification $/setTrace
+I[10:38:41.372] <-- $/setTrace
+I[10:38:41.372] unhandled notification $/setTrace
+I[10:38:41.467] <-- $/setTrace
+I[10:38:41.467] unhandled notification $/setTrace
+I[10:39:03.821] <-- $/setTrace
+I[10:39:03.821] unhandled notification $/setTrace
+I[10:39:25.736] <-- $/setTrace
+I[10:39:25.736] unhandled notification $/setTrace
+I[10:39:51.630] <-- $/setTrace
+I[10:39:51.630] unhandled notification $/setTrace
+I[10:39:53.956] <-- $/setTrace
+I[10:39:53.956] unhandled notification $/setTrace
+I[10:40:00.138] <-- $/setTrace
+I[10:40:00.138] unhandled notification $/setTrace
+I[10:40:01.010] <-- $/setTrace
+I[10:40:01.010] unhandled notification $/setTrace
+I[10:40:04.899] <-- $/setTrace
+I[10:40:04.899] unhandled notification $/setTrace
+I[10:40:06.311] <-- $/setTrace
+I[10:40:06.311] unhandled notification $/setTrace
+I[10:40:08.967] <-- $/setTrace
+I[10:40:08.967] unhandled notification $/setTrace
+I[10:40:33.672] <-- $/setTrace
+I[10:40:33.672] unhandled notification $/setTrace
+I[10:40:33.711] <-- $/setTrace
+I[10:40:33.711] unhandled notification $/setTrace
+I[10:41:22.151] <-- $/setTrace
+I[10:41:22.151] unhandled notification $/setTrace
+I[10:42:08.632] <-- $/setTrace
+I[10:42:08.632] unhandled notification $/setTrace

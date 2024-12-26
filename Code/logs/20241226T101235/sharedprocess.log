@@ -1,0 +1,85 @@
+2024-12-26 10:14:36.302 [info] Getting Manifest... dracula-theme.theme-dracula
+2024-12-26 10:14:36.539 [info] Installing extension: dracula-theme.theme-dracula {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:14:37.316 [info] Extension signature verification result for dracula-theme.theme-dracula: UnknownError. Executed: true. Duration: 17ms.
+2024-12-26 10:14:37.331 [info] Extracted extension to file:///home/mintori/.vscode/extensions/dracula-theme.theme-dracula-2.25.1: dracula-theme.theme-dracula
+2024-12-26 10:14:37.333 [info] Renamed to /home/mintori/.vscode/extensions/dracula-theme.theme-dracula-2.25.1
+2024-12-26 10:14:37.339 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:14:37.414 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:14:47.191 [info] Getting Manifest... ms-vscode.cpptools
+2024-12-26 10:14:47.253 [info] Installing extension: ms-vscode.cpptools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:14:50.685 [info] Extension signature verification result for ms-vscode.cpptools: UnknownError. Executed: true. Duration: 8ms.
+2024-12-26 10:14:52.172 [info] Extracted extension to file:///home/mintori/.vscode/extensions/ms-vscode.cpptools-1.22.11-linux-x64: ms-vscode.cpptools
+2024-12-26 10:14:52.195 [info] Renamed to /home/mintori/.vscode/extensions/ms-vscode.cpptools-1.22.11-linux-x64
+2024-12-26 10:14:52.214 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:14:52.282 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:14:57.700 [info] Getting Manifest... franneck94.c-cpp-runner
+2024-12-26 10:14:57.760 [info] Installing extension: franneck94.c-cpp-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:14:58.501 [info] Getting Manifest... ms-vscode.cpptools
+2024-12-26 10:14:58.564 [info] Getting Manifest... vadimcn.vscode-lldb
+2024-12-26 10:14:58.672 [info] Installing extension: vadimcn.vscode-lldb {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-12-26 10:14:59.125 [info] Extension signature verification result for franneck94.c-cpp-runner: UnknownError. Executed: true. Duration: 11ms.
+2024-12-26 10:14:59.159 [info] Extracted extension to file:///home/mintori/.vscode/extensions/franneck94.c-cpp-runner-9.4.9: franneck94.c-cpp-runner
+2024-12-26 10:14:59.162 [info] Renamed to /home/mintori/.vscode/extensions/franneck94.c-cpp-runner-9.4.9
+2024-12-26 10:14:59.243 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:14:59.530 [info] Extension signature verification result for vadimcn.vscode-lldb: UnknownError. Executed: true. Duration: 8ms.
+2024-12-26 10:14:59.538 [info] Extracted extension to file:///home/mintori/.vscode/extensions/vadimcn.vscode-lldb-1.11.1: vadimcn.vscode-lldb
+2024-12-26 10:14:59.540 [info] Renamed to /home/mintori/.vscode/extensions/vadimcn.vscode-lldb-1.11.1
+2024-12-26 10:14:59.550 [info] Extension installed successfully: franneck94.c-cpp-runner vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:14:59.550 [info] Extension installed successfully: vadimcn.vscode-lldb vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:14:59.619 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:15:12.794 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2024-12-26 10:15:12.870 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:15:13.365 [info] Extension signature verification result for llvm-vs-code-extensions.vscode-clangd: UnknownError. Executed: true. Duration: 6ms.
+2024-12-26 10:15:13.378 [info] Extracted extension to file:///home/mintori/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.33: llvm-vs-code-extensions.vscode-clangd
+2024-12-26 10:15:13.381 [info] Renamed to /home/mintori/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.33
+2024-12-26 10:15:13.391 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:15:13.459 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:16:11.873 [info] Getting Manifest... ms-vscode.cmake-tools
+2024-12-26 10:16:11.933 [info] Installing extension: ms-vscode.cmake-tools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"}}
+2024-12-26 10:16:12.188 [info] Getting Manifest... twxs.cmake
+2024-12-26 10:16:12.323 [info] Installing extension: twxs.cmake {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/mintori/.vscode/extensions/extensions.json","path":"/home/mintori/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.2","date":"2024-12-19T10:22:47.216Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-12-26 10:16:12.988 [info] Extension signature verification result for ms-vscode.cmake-tools: UnknownError. Executed: true. Duration: 8ms.
+2024-12-26 10:16:13.089 [info] Extracted extension to file:///home/mintori/.vscode/extensions/ms-vscode.cmake-tools-1.19.52: ms-vscode.cmake-tools
+2024-12-26 10:16:13.106 [info] Renamed to /home/mintori/.vscode/extensions/ms-vscode.cmake-tools-1.19.52
+2024-12-26 10:16:13.170 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mintori/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2024-12-26 10:16:13.187 [info] Extension signature verification result for twxs.cmake: UnknownError. Executed: true. Duration: 10ms.
+2024-12-26 10:16:13.264 [info] Extracted extension to file:///home/mintori/.vscode/extensions/twxs.cmake-0.0.17: twxs.cmake
+2024-12-26 10:16:13.267 [info] Renamed to /home/mintori/.vscode/extensions/twxs.cmake-0.0.17
+2024-12-26 10:16:13.282 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
+2024-12-26 10:16:13.282 [info] Extension installed successfully: twxs.cmake vscode-userdata:/home/mintori/.vscode/extensions/extensions.json
