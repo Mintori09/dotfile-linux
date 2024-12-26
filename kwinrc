@@ -6,10 +6,20 @@ Id_4=9368dc1a-938e-426a-be76-a9c9b4516a4f
 Number=4
 Rows=1
 
+[MouseBindings]
+CommandAllKey=Alt
+
 [Plugins]
 krohnkiteEnabled=true
 magiclampEnabled=true
 squashEnabled=false
+
+[Script-krohnkite]
+screenGapBottom=5
+screenGapLeft=5
+screenGapRight=5
+screenGapTop=5
+tileLayoutGap=5
 
 [Tiling]
 padding=4
@@ -20,9 +30,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][4c943ce7-7233-51dc-a576-44a70f9cf5ae]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+InputMethod[$e]=/usr/share/applications/org.freedesktop.IBus.Panel.Wayland.Gtk3.desktop
+
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Edna-Light
+theme=__aurorae__svg__Utterly-Round-Dark

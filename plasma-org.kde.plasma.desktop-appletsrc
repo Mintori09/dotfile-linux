@@ -41,8 +41,14 @@ PreloadWeight=100
 popupHeight=503
 popupWidth=643
 
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+icon=about_kde
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
@@ -152,7 +158,7 @@ immutability=1
 plugin=Minimal.chaac.weather
 
 [Containments][29][Applets][38][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=300
 popupWidth=350
 
@@ -181,7 +187,7 @@ immutability=1
 plugin=KdeControlStation
 
 [Containments][29][Applets][41][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 popupHeight=418
 popupWidth=420
 
@@ -190,7 +196,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][29][Applets][7][Configuration]
-PreloadWeight=65
+PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][29][General]
@@ -214,6 +220,9 @@ plugin=org.kde.kscreen
 [Containments][8][Applets][11]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][8][Applets][11][Configuration]
+PreloadWeight=65
 
 [Containments][8][Applets][12]
 immutability=1
@@ -254,19 +263,22 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][8][Applets][22][Configuration]
+PreloadWeight=95
+
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][8][Applets][26]
 immutability=1
@@ -280,7 +292,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][27][Configuration]
-PreloadWeight=36
+PreloadWeight=0
 
 [Containments][8][Applets][9]
 immutability=1

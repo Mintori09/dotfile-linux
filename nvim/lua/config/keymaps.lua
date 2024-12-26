@@ -175,7 +175,7 @@ map("n", "<leader>ft", function() Snacks.terminal(nil, { cwd = LazyVim.root() })
 map("n", "<c-/>",      function() Snacks.terminal(nil, { cwd = LazyVim.root() }) end, { desc = "Terminal (Root Dir)" })
 map("n", "<c-_>",      function() Snacks.terminal(nil, { cwd = LazyVim.root() }) end, { desc = "which_key_ignore" })
 
--- Terminal Mappings
+-- Terminal Mappinhttps://www.youtube.com/watch?v=yuUHMekx_zQ&pp=ygUTdmltLWJyb3dzZXItc2VhcmNoIA%3D%3Dgs
 map("t", "<C-/>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 map("t", "<c-_>", "<cmd>close<cr>", { desc = "which_key_ignore" })
 
@@ -196,6 +196,7 @@ map("n", "<leader><tab>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 map("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 map("n", "<leader><tab>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 
+
 -- native snippets. only needed on < 0.11, as 0.11 creates these by default
 if vim.fn.has("nvim-0.11") == 0 then
   map("s", "<Tab>", function()
@@ -205,3 +206,12 @@ if vim.fn.has("nvim-0.11") == 0 then
     return vim.snippet.active({ direction = -1 }) and "<cmd>lua vim.snippet.jump(-1)<cr>" or "<S-Tab>"
   end, { expr = true, desc = "Jump Previous" })
 end
+
+-- Define the function to perform the Google search
+-- Define the GoogleSearch function
+function GoogleSearch()
+  local searchterm = vim.fn.getreg('"')
+  vim.cmd('silent !firefox "https://www.google.com/search?q=' .. searchterm .. '" &')
+end
+
+vim.api.nvim_set_keymap('n', '<leader>ss', ':lua GoogleSearch()<CR>', { noremap = true, silent = true })
