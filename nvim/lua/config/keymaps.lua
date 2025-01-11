@@ -214,4 +214,4 @@ function GoogleSearch()
   vim.cmd('silent !firefox "https://www.google.com/search?q=' .. searchterm .. '" &')
 end
 
-vim.api.nvim_set_keymap('n', '<leader>ss', ':lua GoogleSearch()<CR>', { noremap = true, silent = true })
+map('n', '<leader>ss', ':lua GoogleSearch()<CR>', { noremap = true, silent = true })

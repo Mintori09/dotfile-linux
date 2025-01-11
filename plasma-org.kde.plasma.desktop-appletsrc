@@ -73,7 +73,7 @@ BlurRadius=50
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Next/
+Image=/home/mintori/Downloads/anime-style-character-space.jpg
 
 [Containments][29]
 activityId=
@@ -104,7 +104,7 @@ immutability=1
 plugin=org.dhruv8sh.kara
 
 [Containments][29][Applets][32][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 popupHeight=432
 popupWidth=432
 
@@ -160,7 +160,7 @@ immutability=1
 plugin=Minimal.chaac.weather
 
 [Containments][29][Applets][38][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 popupHeight=300
 popupWidth=350
 
@@ -173,9 +173,9 @@ immutability=1
 plugin=org.kde.olib.thermalmonitor
 
 [Containments][29][Applets][40][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 popupHeight=180
-popupWidth=288
+popupWidth=300
 
 [Containments][29][Applets][40][Configuration][ConfigDialog]
 DialogHeight=540
@@ -189,7 +189,7 @@ immutability=1
 plugin=KdeControlStation
 
 [Containments][29][Applets][41][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=418
 popupWidth=420
 
@@ -212,6 +212,9 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][42][Wallpaper][org.kde.image][General]
+Image=/home/mintori/Downloads/anime-style-character-space.jpg
 
 [Containments][8]
 activityId=
