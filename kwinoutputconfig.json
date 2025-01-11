@@ -4,7 +4,7 @@
             {
                 "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.3,
+                "brightness": 1,
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
                 "edidHash": "623c53d0e96f8ba6b75b2bf6fe2f983f",
@@ -26,9 +26,9 @@
                 "wideColorGamut": false
             },
             {
-                "allowSdrSoftwareBrightness": true,
+                "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.3,
+                "brightness": 1,
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-1",
                 "edidHash": "84e1d9fd04037fdcf822193cd8dc0a75",
@@ -37,7 +37,7 @@
                 "iccProfilePath": "",
                 "mode": {
                     "height": 1080,
-                    "refreshRate": 75002,
+                    "refreshRate": 60000,
                     "width": 1920
                 },
                 "overscan": 0,
@@ -65,29 +65,15 @@
                             "y": 0
                         },
                         "priority": 0
-                    }
-                ]
-            },
-            {
-                "lidClosed": false,
-                "outputs": [
-                    {
-                        "enabled": false,
-                        "outputIndex": 0,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": -1
                     },
                     {
                         "enabled": true,
                         "outputIndex": 1,
                         "position": {
-                            "x": 0,
+                            "x": 1920,
                             "y": 0
                         },
-                        "priority": 0
+                        "priority": 1
                     }
                 ]
             }

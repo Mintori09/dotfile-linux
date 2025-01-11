@@ -1,32 +1,13 @@
 [ActionPlugins][0]
+MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=48f058e9-4fde-4100-9b04-42015547f864
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/Next/
 SlidePaths=/usr/share/wallpapers/
-
-[Containments][2]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=4
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][21]
 immutability=1
@@ -77,10 +58,12 @@ plugin=org.kde.plasma.marginsseparator
 AppletOrder=42;5;6;21
 
 [Containments][28]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=48f058e9-4fde-4100-9b04-42015547f864
 formfactor=0
 immutability=1
-lastScreen=1
+lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
@@ -120,6 +103,11 @@ plugin=org.kde.plasma.appmenu
 immutability=1
 plugin=org.dhruv8sh.kara
 
+[Containments][29][Applets][32][Configuration]
+PreloadWeight=65
+popupHeight=432
+popupWidth=432
+
 [Containments][29][Applets][32][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -142,6 +130,11 @@ fixedLen=1
 [Containments][29][Applets][33]
 immutability=1
 plugin=org.kde.windowtitle.Fork
+
+[Containments][29][Applets][33][Configuration]
+PreloadWeight=55
+popupHeight=432
+popupWidth=432
 
 [Containments][29][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -210,6 +203,15 @@ SystrayContainmentId=8
 
 [Containments][29][General]
 AppletOrder=33;30;35;32;34;7;38;40;20;41
+
+[Containments][42]
+activityId=48f058e9-4fde-4100-9b04-42015547f864
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][8]
 activityId=
@@ -321,4 +323,3 @@ fontWeight=400
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=

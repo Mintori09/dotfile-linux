@@ -76,8 +76,9 @@ Search History=cltr+0,ctrl+1,;
 1920x1080 screen: Height=961
 1920x1080 screen: Width=1900
 1920x1080 screen: Window-Maximized=true
-2 screens: Height=977
-2 screens: Width=952
+2 screens: Height=503
+2 screens: Width=950
+2 screens: Window-Maximized=true
 
 [filetree]
 editShade=74,55,117

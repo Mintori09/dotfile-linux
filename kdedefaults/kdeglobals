@@ -1,8 +1,8 @@
 [General]
-ColorScheme=BreezeLight
+ColorScheme=ChromeOSDark
 
 [Icons]
-Theme=breeze
+Theme=Tela-dark
 
 [KDE]
 widgetStyle=Breeze
